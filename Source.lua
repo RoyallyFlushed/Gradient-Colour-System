@@ -42,7 +42,7 @@ local Gradient = function(txt)
             txt.TextColor3 = Color3.new(1,1,i/255)
             wait()
         end
-        --// Red Down
+        --// Red down
         for i = 0, 255, Increment do
             txt.TextColor3 = Color3.new((255-i)/255,1,1)
             wait()
